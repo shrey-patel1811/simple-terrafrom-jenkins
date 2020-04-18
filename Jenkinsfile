@@ -25,6 +25,6 @@ node {
         sh 'terraform plan'
     }
      stage('plan') {
-        sh 'terraform apply'
+        sh 'terraform apply -auto-approve'
     }
 }
