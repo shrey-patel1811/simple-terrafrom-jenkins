@@ -8,6 +8,7 @@ node {
    stage('Checkout') {
        echo 'Hello from Stage 1'
        cleanWs()
+      checkout scm
    }
    stage('Set Terraform path') {
       script {
