@@ -24,4 +24,7 @@ node {
     stage('plan') {
         sh 'terraform plan'
     }
+     stage('plan') {
+        sh 'terraform apply'
+    }
 }
