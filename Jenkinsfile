@@ -1,9 +1,3 @@
-#!/usr/bin/env groovy
-//Above line is for Shebang
-
-// def credentialsId = 'awsCredentials'
-
-
 node {
    stage('Checkout') {
        echo 'Hello from Stage 1'
